@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+     int a;
+	clrscr();
+	printf("\n\tenter any number=");
+	scanf("\n\t%d",&a);
+	if(a%2)
+	{
+		printf("\n\todd");
+	}
+	else
+	{
+		printf("\n\teven");
+	}
+	getch();
+	return 0;
+
+}

@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{ int x;
+	clrscr();
+	printf("\n\tenter value in 1 to 5=");
+	scanf("%d",&x);
+	switch(x)
+	{
+	  case 1:
+		printf("\n\tone");
+		break ;
+	  case 2:
+		printf("\n\ttwo");
+		break ;
+	  case 3:
+		printf("\n\tthree");
+		break ;
+	  case 4:
+		printf("\n\tfour");
+		break ;
+	  case 5:
+		printf("\n\tfive");
+		break ;
+	  default:
+		printf("\n\t enter true value between 1 to 5");
+
+	}
+	getch();
+	return 0;
+}
